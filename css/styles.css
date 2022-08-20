@@ -45,6 +45,12 @@ main {
     margin: 20px;
 }
 
+.main img:hover {
+    transform: scale(1.10) translate(10px, 10px);
+    /* transform: skew(15deg); */
+    transition: 0.3s ease-in-out;
+}
+
 /* INDEX */
 
 .banner {
@@ -73,6 +79,18 @@ main {
     align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
+}
+
+input{
+    height: 30px;
+    width: 150px;    
+}
+
+input:focus {
+    border-radius: 10px;
+    background-color: bisque;
+    color: rgb(56, 56, 56);
+    transition: .3s;
 }
 
 /* GALERIA */
