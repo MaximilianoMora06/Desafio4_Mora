@@ -58,6 +58,7 @@ main {
 }
 
 .index {
+    padding: 50px;
     margin: 100px;
     align-items: center;
 }
